@@ -21,6 +21,8 @@ The dataset consists of aerial images labeled into four classes:
 - The **decoder** reconstructs the original image from this compressed representation.
 - This unsupervised learning approach helps in efficient feature extraction.
 
+![Model](Flow.png)
+
 ### **3. Classification**
 - The latent space representations from the encoder were used as input features for a classifier.
 - A **fully connected neural network** was trained on these extracted features.
